@@ -1,0 +1,5 @@
+# Hand Tracking Mouse - Python dependencies
+# Install with: pip install -r requirements.txt
+opencv-python
+mediapipe
+pyautogui

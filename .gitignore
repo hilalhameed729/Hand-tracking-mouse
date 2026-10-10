@@ -1,0 +1,49 @@
+# Python .gitignore for hand-tracking-mouse
+
+# Virtual environment (do NOT commit this folder - everyone creates their own)
+venv/
+.venv/
+ENV/
+env/
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual env + test + coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# MediaPipe Tasks API model file (auto-downloaded on first run, ~8 MB)
+# Uncomment the next line if you don't want to commit it:
+# hand_landmarker.task
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment secrets (just in case you add any later)
+.env
+.env.local
